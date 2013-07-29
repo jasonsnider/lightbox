@@ -11,6 +11,13 @@
 (function ($){
     "use strict"; /*jslint browser:true */
     $(function () {
+        
+        /**
+         * Creates a lightbox and injects the into it the targeted Ajax request
+         *
+         * data-toggle = "lightbox" - Creates a trigger for opening a lightbox
+         * data-url = "the path to an Ajax request"
+         */
         $(document).on('click.data-api', '[data-toggle="lightbox"]', function (e) {
                 
             e.preventDefault();
@@ -44,6 +51,11 @@
                 
         });
             
+        /**
+         * Closes the lightbox
+         * 
+         * data-toggle = "lightbox-close" - Creates a trigger for closing a lightbox
+         */
         $(document).on('click.data-api', '[data-toggle="lightbox-close"]', function (e) {
                 
             e.preventDefault();
