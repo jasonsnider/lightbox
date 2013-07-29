@@ -1,0 +1,56 @@
+/**
+ * LightBox - lightbox.js
+ * 
+ * Copyright 2012 - 2013, Jason D Snider. (http://jasonsnider.com)
+ * Licensed under The MIT License
+ * 
+ * @copyright Copyright 2012 - 2013, Jason D Snider. (http://jasonsnider.com)
+ * @link http://jasonsnider.com
+ * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
+#LightBox {
+    /* Overlay page content */
+    position: fixed;
+    overflow-y: scroll;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,0.7);
+    z-index: 11000;
+    padding: 0 1em;
+}
+
+#LightBoxContent {
+    background: #fff;
+    position: relative;
+    margin: 40px auto;
+    padding: 0 30px;
+    border-radius: 7px;
+    border: 1px solid rgba(175, 175, 175, 0.6);
+    background: #fff;
+}
+       
+#LightBoxHeader {
+    border-bottom: 1px solid rgba(175, 175, 175, 0.6);
+    padding: 0;
+    margin:0;
+}
+
+#LightBoxFooter {
+    border-top: 1px solid rgba(175, 175, 175, 0.6);
+    margin:0;
+    padding: .4em 0;
+}
+                        
+.lightbox-close {
+    float: right;
+    font-size: 2em;
+    display:inline-block;
+    text-decoration: none;
+}
+                        
+.lightbox-close-button {
+    float: right;
+    text-decoration: none;
+}
