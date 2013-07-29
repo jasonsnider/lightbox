@@ -16,7 +16,7 @@
             e.preventDefault();
             
             var $this = $(this),
-                    $url = $this.attr('data-url');
+                 $url = $this.attr('data-url');
 
             if ($('#LightBox').length == 0) {
                     
