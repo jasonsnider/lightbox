@@ -1,10 +1,10 @@
 /**
  * LightBox - lightbox.js
  * 
- * Copyright 2012 - 2013, Jason D Snider. (http://jasonsnider.com)
+ * Copyright 2013, Jason D Snider. (http://jasonsnider.com)
  * Licensed under The MIT License
  * 
- * @copyright Copyright 2012 - 2013, Jason D Snider. (http://jasonsnider.com)
+ * @copyright Copyright 2013, Jason D Snider. (http://jasonsnider.com)
  * @link http://jasonsnider.com
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
