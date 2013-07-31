@@ -24,8 +24,8 @@
 #LightBoxContent {
     background: #fff;
     position: relative;
-    margin: 40px auto;
-    padding: 0 30px;
+    margin: 3em auto;
+    padding: 0 2em;
     border-radius: 7px;
     border: 1px solid rgba(175, 175, 175, 0.6);
     background: #fff;
@@ -54,3 +54,19 @@
     float: right;
     text-decoration: none;
 }
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    #LightBox {
+        padding: 0;
+    }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
