@@ -32,11 +32,13 @@
                     '<div id="AjaxLightBox">'
                         + '<div id="AjaxLightBoxContent">'
                             + '<div id="AjaxLightBoxHeader" class=\"clearfix\">'
-                                + '<a href="#" data-toggle="ajax-lightbox-close" class="ajax-lightbox-close">&times;</a>'
+                                + '<a href="#" data-toggle="ajax-lightbox-close" class="ajax-lightbox-close">'
+                                    + '&times;</a>'
                             + '</div>'
                             + '<div id="AjaxLightBoxData"></div>'
                             + '<div id="AjaxLightBoxFooter" class=\"clearfix\">'
-                                + '<a href="#" data-toggle="ajax-lightbox-close" class="ajax-lightbox-close-button">[Close]</a>'
+                                + '<a href="#" data-toggle="ajax-lightbox-close" class="ajax-lightbox-close">'
+                                    + '[Close]</a>'
                             + '</div>'
                         + '</div>'
                     + '</div>'    
@@ -46,7 +48,6 @@
                  
                 /* Remove the default scroll bar, we want the light box to take control */
                 $('body').attr('style', 'overflow:hidden');	
-            
             }
                 
         });
