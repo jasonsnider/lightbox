@@ -8,7 +8,8 @@
  * @link http://jasonsnider.com
  * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
-#AjaxLightBox {
+
+.lightbox{
     /* Overlay page content */
     position: fixed;
     overflow-y: scroll;
@@ -21,7 +22,11 @@
     padding: 0 1em;
 }
 
-#AjaxLightBoxContent {
+.lightbox-hide{
+    display:none;
+}
+
+.lightbox-content{
     background: #fff;
     position: relative;
     margin: 3em auto;
@@ -31,26 +36,26 @@
     background: #fff;
 }
        
-#AjaxLightBoxHeader {
+.lightbox-header{
     border-bottom: 1px solid rgba(175, 175, 175, 0.6);
     padding: 0;
     margin:0;
 }
 
-#AjaxLightBoxFooter {
+.lightbox-footer{
     border-top: 1px solid rgba(175, 175, 175, 0.6);
     margin:0;
     padding: .4em 0;
 }
-                        
-.ajax-lightbox-close {
+                                        
+.lightbox-close {
     float: right;
     font-size: 2em;
     display:inline-block;
     text-decoration: none;
 }
                         
-.ajax-lightbox-close-button {
+.lightbox-close-button {
     float: right;
     text-decoration: none;
     font-size: 1em;
@@ -61,7 +66,8 @@
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-    #AjaxLightBox {
+    #AjaxLightBox,
+    .lightbox{
         padding: 0;
     }
 }

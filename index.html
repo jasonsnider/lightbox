@@ -26,8 +26,24 @@
     </head>
     <body>
         <h1>LightBox Demo</h1>
-        <a href="#" data-toggle="ajax-lightbox" data-url='/ajax-lightbox/ajax.html'>Open Me</a>
+        <a href="#" data-toggle="lightbox" data-ajax="true" data-url='/ajax-lightbox/ajax.html'>Open Me</a>
+        |
+        <a href="#" data-toggle="lightbox" data-target='LightboxTest'>Open Me Lightbox Test</a>
+         
+        <div id="LightboxTest" class="lightbox lightbox-hide">
+            <div class="lightbox-content">
+                <div class="lightbox-header clearfix">
+                    <a href="#" data-toggle="lightbox" data-target="LightboxTest" class="lightbox-close">&times;</a>
+                </div>
+                <p>this is a test</p>
+                <div class="lightbox-footer clearfix">
+                    <a href="#" data-toggle="lightbox" data-target="LightboxTest" class="lightbox-close-button">[close]</a>
+                </div>
+            </div>
+        </div>
+        
         <script src="/ajax-lightbox/vendors/jquery/jquery-1.9.1.min.js"></script>
         <script src="/ajax-lightbox/ajax-lightbox.js"></script>
+        
     </body>
 </html>
